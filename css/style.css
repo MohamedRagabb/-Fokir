@@ -82,3 +82,84 @@ body{
     font-size: 24px;
     font-weight: 200;
  }
+ .about{
+    padding: 50px 0;
+ }
+ .con{
+   
+    width: 85%;
+    margin: auto;
+    
+ }
+ .about-img{
+    
+    width: 30%;
+    float: left;
+    padding-left: 30px;
+ }
+ .img-border {
+    border: 9px solid red;
+    border-radius: 10px;
+    
+ }
+ .img-border img{
+    position: relative;
+    top: 20px;
+    left: 20px;
+ }
+ 
+ .about-content{
+    
+    width:60%;
+    float: right;
+    margin-right: -50px;
+    color: #333;
+    
+    
+ }
+
+ .about-content h4{
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-left:  5px solid red;
+    padding-left: 10px;
+ }
+ .about-content p{
+    border-bottom: 1px dashed #999 ;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+ }
+ .about-content .detalis .data{
+    float: left;
+    margin-right:30px;
+
+ }
+ .detalis .data h3{
+    
+    font-size: 20px;
+ }
+
+ .detalis .data span{
+    font-weight: #555;
+    font-weight: 300;
+ }
+ .detalis button{
+   background-color: #ff305b;
+    padding: 13px 25px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-right: 10px;
+    transition: all .5s;
+    cursor: pointer;
+ }
+
+ .detalis button:hover{
+     background-color: #ec2403;
+ }
+ 
