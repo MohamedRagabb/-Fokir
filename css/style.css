@@ -1,0 +1,84 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    margin: 0px;
+}
+
+.home{
+    background-image: url(../images/hero\ img.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    color: whitesmoke;
+
+}
+.layer{
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.nav-bar{
+    
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.logo{
+   
+    width: 30%;
+    float: left;
+}
+.logo h2{
+    color: #ff305b;
+    font-size: 24px;
+    font-weight: 800;
+}
+.list{
+   
+    width: 60%;
+    float: right;
+}
+.list ul li{
+    display: inline-block;
+    margin: 0px 10px ;
+    
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    transition: all .5s;
+}
+.list ul li a:hover{
+    color: #ff305b;
+}
+.clear-fix{
+    clear: both;
+}
+.home-content{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+}
+ .home-content h3{
+    font-size: 30px;
+    margin: 0px;
+    
+ }
+ .home-content h1{
+    font-size: 70px;
+    margin: 0px;
+    color: #ff305b;
+    text-transform: uppercase;
+ }
+ .home-content h4{
+    font-size: 24px;
+    font-weight: 200;
+ }
