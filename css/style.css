@@ -309,3 +309,55 @@ body{
    margin: 20px 5px;
    
  }
+ .feed{
+   padding-top: 50px;
+   display: flow-root;
+ }
+ .feed-card{
+   background-color: #f1f1f1;
+   width: 65%;
+   margin: auto;
+   margin-top: 50px;
+   padding: 30px 40px;
+   border-radius: 5px;
+   position: relative;
+ }
+ .feed-card .image6 {
+   width: 30%;
+   float: left;
+ }
+ .feed-card .image6 img{
+   height: 130px;
+   width: 130px;
+   border-radius: 50%;
+   position: relative;
+ }
+ .feed-content6{
+   width: 70%;
+   float: left;
+ }
+ .feed-content6 h3{
+   font-size: 26px;
+   font-weight: 500;
+   color:#333
+ }
+ .feed-content6 h5{
+   font-size: 15px;
+   color: #777;
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }
+ .feed-content6 p{
+   color: #777;
+   font-style: italic;
+ }
+ .icons6 i{
+   color: rgb(8, 255, 61);
+ }
+ .border{
+    position: absolute;
+    border: 100px solid #ff305b;
+    border-color:#ff305b transparent transparent #ff305b;
+    top: 0;
+   
+ }
