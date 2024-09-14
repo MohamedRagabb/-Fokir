@@ -1,5 +1,6 @@
 *{
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 body{
     margin: 0px;
@@ -359,5 +360,47 @@ body{
     border: 100px solid #ff305b;
     border-color:#ff305b transparent transparent #ff305b;
     top: 0;
+    left: 0;
    
+ }
+ .contact{
+   padding-top: 50px;
+ }
+ form{
+   width: 75%;
+ 
+   margin: auto;
+   
+   display: flow-root;
+ }
+ form .name{
+   width: 50%;
+   float: left;
+   padding: 10px;
+ }
+ form .name input{
+   width: 100%;
+   height: 40px;
+   border: 1px solid #333;
+   padding: 10px 20px;
+ }
+ form .subject{
+   width: 100%;
+   padding: 10px;
+   
+ }
+ form .subject input{
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #333;
+ }
+ form input:focus{
+   outline: 1px solid #333;
+ }
+ form button{
+   background-color: #333;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   margin: 10px;
  }
