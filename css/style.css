@@ -163,3 +163,149 @@ body{
      background-color: #ec2403;
  }
  
+
+ .portfolio{
+   padding: 50px 0;
+   text-align: center;
+   background-color: #dacece;
+   width: 100%;
+ }
+
+ .portfolio .title{
+   
+   width: fit-content;
+   margin: auto;
+   position: relative;
+ }
+ .portfolio .title h3{
+   color: #333;
+   font-size: 40px;
+ }
+ .portfolio .title::after{
+   content: '';
+   width: 50%;
+   height: 10px;
+   border-top: 1px solid #333;
+   border-bottom: 1px solid #333;
+   position: absolute;
+   left: 60px;
+   top: 100%;
+
+ }
+ .portfolio .title::before{
+   content: '';
+   background-color: #ff305b;
+   width: 80%;
+   height: 1px;
+   position: absolute;
+   top: 110%;
+   right: 10%;
+ }
+ .Our-services{
+   width: 100%;
+   
+   display: flow-root;
+ }
+ .Our-services .services-card{
+   width: 24%;
+   float: left;
+   
+   margin: 20px 5px;
+ }
+ .Our-services .services-card:hover{
+   background-color: white;
+   transition: all .5s;
+ }
+ .port{
+   padding: 50px 0;
+   text-align: center;
+   width: 100%;
+   
+ }
+ .con4{
+   display: flow-root;
+   margin: auto;
+   
+ }
+ 
+ .title4{
+   
+   width: fit-content;
+   margin: auto;
+   position: relative;
+ }
+ .title4 h3{
+   color: #333;
+   font-size: 40px;
+ }
+ .title4::after{
+   content: '';
+   width: 50%;
+   height: 10px;
+   border-top: 1px solid #333;
+   border-bottom: 1px solid #333;
+   position: absolute;
+   left: 25%;
+   top: 100%;
+ }
+ .title4::before{
+   content: '';
+   width: 80%;
+   height: 1px;
+   top: 110%;
+   left: 10%;
+   position: absolute;
+   background-color: #333;
+ }
+
+ .port ul li{
+   display: inline-block;
+   margin: 10px 20px;
+   font-size: 17px;
+   color: #333;
+   text-transform: uppercase ;
+   font-weight: 400;
+ }
+ .card4{
+   width: 30%;
+   position: relative;
+   cursor: pointer;
+   float: left;
+   margin: 20px;
+ }
+ .card4 img{
+   width: 100%;
+   
+ }
+ .port4-layer{
+   background-color: rgba(0, 0, 0, .4);
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   opacity: 0;
+   transition: all .5s;
+ }
+ .card4:hover .port4-layer{
+   opacity: 1;
+ }
+ .counter{
+   
+   width: 100%;
+   background-color: #dacece;
+ }
+ .counter .con5{
+   padding: 100px 0;
+   width: 90%;
+   
+   margin: auto;
+   display: flow-root;
+ }
+ .counter .con5 .card5{
+   width: 23%;
+   float: left;
+   text-align: center;
+   margin: 20px 5px;
+   
+ }
